@@ -1,5 +1,4 @@
 .header{
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #f9faf8;
     background-color: #1f2937;
@@ -16,6 +15,44 @@
 .header-links{
     font-size: 18px;
 }
+.content-one{
+    color: #f9faf8;
+    background-color: #1f2937;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.content-maintext{
+    flex: 1;
+   
+}
+
+.maintext-header{
+    font-size: 34px;
+    font-weight: 1000;
+}
+
+.image-placeholder{
+    display: flex;
+    flex: 1;
+    background-color: darkgray;
+    height: 200px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-one{
+    padding: 5px 25px 5px 25px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: #1f2937;
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+}
 
 a {
     text-decoration: none;
@@ -30,3 +67,7 @@ ul {
     padding: 0;
     gap: 16px;
   }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

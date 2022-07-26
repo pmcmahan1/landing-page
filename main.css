@@ -44,6 +44,32 @@
     align-items: center;
 }
 
+.content-two-header{
+    font-size: 24px;
+    font-weight: 900px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 20px;
+  }
+
+.info {
+    max-width: 150px;
+  }
+
+.subtext {
+    font-weight: 500;
+    color: darkgray;
+    max-width: 150px;
+
+}
+
 #button-one{
     padding: 5px 25px 5px 25px;
     font-weight: 700;
@@ -56,7 +82,7 @@
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: darkgray;
   }
 
 
@@ -71,3 +97,8 @@ ul {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+  }
